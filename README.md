@@ -49,30 +49,30 @@ Content-Type: application/json
   "email": "alice@example.com"
 }
 
-###  Get All Users
+### Get All Users
 
 GET https://userservice.onrender.com/api/users
 
-###   Get a User by ID
+### Get a User by ID
 
 GET https://userservice.onrender.com/api/users/1
 
-###   ❌ Delete a User
+### ❌ Delete a User
 
 DELETE https://userservice.onrender.com/api/users/1
 
-🧪 Run Locally
-1. Clone the Repository
+### 🧪 Run Locally
+# 1. Clone the Repository
 
 git clone https://github.com/yourusername/userservice.git
 cd userservice
 
-2. Build & Run
+# 2. Build & Run
 
 ./gradlew run
 
 The service will be available at http://localhost:8080/api/users
 
-📄 License
+### 📄 License
 This project is for educational/demo purposes.
 Feel free to use, improve, or extend it as needed.
