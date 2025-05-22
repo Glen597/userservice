@@ -49,7 +49,7 @@ Content-Type: application/json
   "email": "alice@example.com"
 }
 
-### Get All Users
+### 📋 Get All Users
 
 ```http
 GET https://userservice.onrender.com/api/users
