@@ -7,7 +7,7 @@ import org.glassfish.jersey.grizzly2.httpserver.GrizzlyHttpServerFactory;
 import java.net.URI;
 
 public class Main {
-  public static final String BASE_URI = "http://localhost:3000/api/";
+  public static final String BASE_URI = "http://localhost:8080/api/";
 
   public static HttpServer startserver(){
       final ResourceConfig config = new ResourceConfig().packages("org.example.userservice");
