@@ -59,11 +59,12 @@ GET https://userservice.onrender.com/api/users
 ```http
 GET https://userservice.onrender.com/api/users/1
 
+```
 ### ❌ Delete a User
 
 ```http
 DELETE https://userservice.onrender.com/api/users/1
-
+```
 ### 🧪 Run Locally
 # 1. Clone the Repository
 
@@ -76,7 +77,9 @@ cd userservice
 
 ```http
 The service will be available at http://localhost:8080/api/users
-
+```
 ### 📄 License
+```
 This project is for educational/demo purposes.
 Feel free to use, improve, or extend it as needed.
+```
