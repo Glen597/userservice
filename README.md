@@ -53,12 +53,11 @@ Content-Type: application/json
 
 ```http
 GET https://userservice.onrender.com/api/users
-
+```
 ### Get a User by ID
 
 ```http
 GET https://userservice.onrender.com/api/users/1
-
 ```
 ### ❌ Delete a User
 
