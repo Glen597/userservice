@@ -20,7 +20,7 @@ public class Main {
       System.out.println("Press enter to stop the server...");
 
       try{
-          new java.util.Scanner(System.in).nextLine();
+          Thread.currentThread().join();
       }catch(Exception e){
           e.printStackTrace();
       }
