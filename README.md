@@ -48,7 +48,7 @@ Content-Type: application/json
   "name": "Alice",
   "email": "alice@example.com"
 }
-
+```
 ### 📋 Get All Users
 
 ```http
