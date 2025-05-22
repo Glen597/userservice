@@ -51,14 +51,17 @@ Content-Type: application/json
 
 ### Get All Users
 
+```http
 GET https://userservice.onrender.com/api/users
 
 ### Get a User by ID
 
+```http
 GET https://userservice.onrender.com/api/users/1
 
 ### ❌ Delete a User
 
+```http
 DELETE https://userservice.onrender.com/api/users/1
 
 ### 🧪 Run Locally
@@ -71,6 +74,7 @@ cd userservice
 
 ./gradlew run
 
+```http
 The service will be available at http://localhost:8080/api/users
 
 ### 📄 License
